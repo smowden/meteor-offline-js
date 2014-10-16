@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* line 6, ../sass/offline-language-french-indicator.sass */
+html[lang="fr"] .offline-ui.offline-ui-up .offline-ui-content:before {
+  content: "Connecté";
+}
+/* line 11, ../sass/offline-language-french-indicator.sass */
+html[lang="fr"] .offline-ui.offline-ui-down .offline-ui-content:before {
+  content: "Pas connecté";
+}
