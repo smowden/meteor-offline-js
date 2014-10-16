@@ -14,7 +14,7 @@ Offline.trigger = reactiveTrigger;
 Offline.reactiveState = function(){
     stateDep.depend();
     return Offline.state;
-}.bind(this);
+};
 
 
 Tracker.autorun(function () {
